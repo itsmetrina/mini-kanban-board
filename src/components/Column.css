@@ -1,0 +1,13 @@
+.column h2 {
+	margin-bottom: 1rem;
+	font-size: 1.2rem;
+}
+
+.column-cards {
+	flex-grow: 1;
+	display: flex;
+	flex-direction: column;
+	gap: 0.5rem;
+	max-height: 100%;
+	padding-right: 4px;
+}

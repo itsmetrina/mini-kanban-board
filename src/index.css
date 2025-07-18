@@ -1,0 +1,105 @@
+:root {
+	--bg: #121212;
+	--card-bg: #1e1e1e;
+	--column-bg: #1a1a1a;
+	--text: #f0f0f0;
+	--accent: #3b82f6;
+	--border: #2a2a2a;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+	height: 100%;
+	background-color: var(--bg);
+	color: var(--text);
+	font-family: 'Inter', sans-serif;
+}
+
+.app {
+	padding: 2rem;
+	text-align: center;
+}
+
+h1 {
+	color: var(--accent);
+}
+
+.add-task {
+	margin-bottom: 1.5rem;
+}
+
+input {
+	padding: 0.5rem;
+	border-radius: 6px;
+	border: 1px solid var(--border);
+	background-color: var(--card-bg);
+	color: var(--text);
+	margin-right: 0.5rem;
+}
+
+button {
+	background-color: var(--accent);
+	color: white;
+	border: none;
+	padding: 0.5rem 1rem;
+	border-radius: 6px;
+	cursor: pointer;
+}
+
+button:hover {
+	opacity: 0.9;
+}
+
+.board {
+	display: flex;
+	gap: 1rem;
+	justify-content: center;
+	margin-top: 1rem;
+}
+
+.column {
+	background: var(--column-bg);
+	padding: 1rem;
+	border-radius: 8px;
+	width: 250px;
+	height: 300px;
+	display: flex;
+	flex-direction: column;
+	box-shadow: 0 0 3px rgb(3 169 244 / 56%);
+	overflow-y: scroll;
+	scrollbar-width: none;
+}
+
+.card {
+	background: var(--card-bg);
+	padding: 0.75rem;
+	margin-bottom: 0.5rem;
+	border-radius: 6px;
+	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+	color: var(--text);
+	text-align: left;
+}
+
+.move-buttons {
+	margin-top: 0.5rem;
+}
+
+.move-buttons button {
+	background-color: #374151;
+	color: #d1d5db;
+	padding: 0.25rem 0.5rem;
+	margin: 0.25rem;
+	font-size: 0.8rem;
+	border-radius: 4px;
+}
+
+.move-buttons button:hover {
+	background-color: var(--accent);
+}
