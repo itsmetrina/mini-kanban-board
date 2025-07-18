@@ -68,8 +68,8 @@ button:hover {
 	background: var(--column-bg);
 	padding: 1rem;
 	border-radius: 8px;
-	width: 250px;
-	height: 300px;
+	width: 400px;
+	height: 500px;
 	display: flex;
 	flex-direction: column;
 	box-shadow: 0 0 3px rgb(3 169 244 / 56%);
