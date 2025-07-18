@@ -47,7 +47,6 @@ src/
 │   └── Card.tsx
 ├── utils/
 │   ├── boardUtils.ts
-│   └── boardUtils.test.ts
 ├── App.tsx
 └── index.tsx
 ```
