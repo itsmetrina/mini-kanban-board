@@ -7,6 +7,7 @@ export function moveCard(
     to: keyof BoardState
 ): BoardState {
     const cardToMove: CardType | undefined = board[from].find(c => c.id === id);
+    console.log(board, id, from, to, 'board, id, from, to')
     if (!cardToMove) return board;
 
     return {
