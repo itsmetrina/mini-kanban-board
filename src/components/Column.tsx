@@ -1,5 +1,5 @@
 import type { BoardState, CardType } from '../App';
-import { toTitleCase } from '../utils/textUtils';
+import { toTitleCase } from '../utils/textUtils.ts';
 import Card from './Card'
 
 type ColumnProps = {
